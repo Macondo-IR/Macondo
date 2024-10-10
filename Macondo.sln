@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Macondo.Model", "Macondo.Model\Macondo.Model.csproj", "{C05D29E7-F19F-4EB6-B323-474C6CD19BFF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Macondo.Data", "Macondo.Data\Macondo.Data.csproj", "{96602F7E-EE1B-48DE-8CB9-98407E15C96B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Macondo.Helpers", "Macondo.Helpers\Macondo.Helpers.csproj", "{E69DE54B-13B2-4F7C-9552-A5D95D707757}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{C05D29E7-F19F-4EB6-B323-474C6CD19BFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C05D29E7-F19F-4EB6-B323-474C6CD19BFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C05D29E7-F19F-4EB6-B323-474C6CD19BFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96602F7E-EE1B-48DE-8CB9-98407E15C96B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96602F7E-EE1B-48DE-8CB9-98407E15C96B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96602F7E-EE1B-48DE-8CB9-98407E15C96B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96602F7E-EE1B-48DE-8CB9-98407E15C96B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E69DE54B-13B2-4F7C-9552-A5D95D707757}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E69DE54B-13B2-4F7C-9552-A5D95D707757}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E69DE54B-13B2-4F7C-9552-A5D95D707757}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E69DE54B-13B2-4F7C-9552-A5D95D707757}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
