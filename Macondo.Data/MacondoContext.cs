@@ -9,6 +9,8 @@ namespace Macondo.Data
     {
         public DbSet<Item> Items { get; set; }
         public DbSet<List> Lists { get; set; }
+         public DbSet<Sample> Samples { get; set; }
+
 
         // Constructor for allowing the DbContextOptions to be passed in (needed for Dependency Injection and design-time tools)
         public MacondoContext(DbContextOptions<MacondoContext> options) : base(options)
@@ -37,6 +39,8 @@ namespace Macondo.Data
 
             modelBuilder.Entity<List>()
                 .ToTable("Lists");
+            modelBuilder.Entity<Sample>()
+                .ToTable("Samples");
 
             modelBuilder.Entity<List>()
                 .HasMany(l => l.Items)

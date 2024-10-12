@@ -17,7 +17,8 @@ public class List
         Id = Guid.NewGuid();
         Name = name;
         Items = new List<Item>();
-    }
+    } 
+      public List() { }
 
 }
 }

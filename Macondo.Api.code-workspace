@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "Macondo.Api"
+		},
+		{
+			"path": "Macondo.Services"
+		},
+		{
+			"path": "Macondo.Repositories"
+		},
+		{
+			"path": "Macondo.Model"
+		},
+		{
+			"path": "Macondo.Helpers"
+		},
+		{
+			"path": "Macondo.Data"
+		}
+	],
+	"settings": {}
+}
